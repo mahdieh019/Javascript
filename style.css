@@ -1,0 +1,13 @@
+#first{
+    width: 100%;
+    height: 200px;
+    border: 1px solid gray;
+    font-family: 'Courier New';
+    padding: 15px;
+}
+#img{
+    display: none;
+}
+body{
+    background-color: aqua;
+}

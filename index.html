@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- <script>
+            alert('Welcome to DCI');
+        </script> -->
+        <script type="text/javascript" src="script.js"></script>
+
+    </head>
+    <body >
+        <p id="first">Welcome to javascript</p>
+        <!-- <button onclick="document.getElementById('first').innerHTML='The content is changed using javascript'">Click Me</button> -->
+        <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click Me</button>
+        <p id="demo"></p>
+        
+        <button id="show"  onmouseover="document.getElementById('img').style.display='block';" 
+        onmouseout="document.getElementById('img').style.display='none';"
+        
+        >Show the image</button>
+
+        <p><img id="img" src="img1.jpg"></p>
+
+        <button id="hide" onclick="document.getElementById('img').style.display='none';
+     
+        ">hide the image</button> 
+        <!-- <button id="showhide" onclick="showhide()">showhide</button> -->
+        <a href="#" onclick="changestyle()"> change the background color</a> 
+        <button class="j" onclick="this.style.backgroundColor = 'red'"> change the background color</button>
+        <button onclick="changelanguage()">change the language</button>
+        <button onclick="welcome('mah','nas')">change the name</button>
+    </body>
+</html>
