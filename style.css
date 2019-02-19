@@ -1,5 +1,5 @@
 #first{
-    width: 100%;
+    width: 98%;
     height: 200px;
     border: 1px solid gray;
     font-family: 'Courier New';
@@ -10,4 +10,35 @@
 }
 body{
     background-color: aqua;
+}
+#j{
+    background: green;
+}
+#mydiv{
+    border: 1px solid black;
+    background-color: lightblue;
+    width: 300px;
+    height: 200px;
+}
+#mydiv:hover{
+    background-color: coral;
+    width: 600px;
+    height: 500px;
+    padding:100px;
+    border-radius: 50px;
+}
+.para{
+    height: 200px;
+    border: 2px solid black;
+}
+#Fullname{
+    border: 2px solid darkgray;
+    height: 200px;
+    background: lightgreen;
+    padding: 50px;
+
+}
+#Fullname h1{
+    color:darkblue;
+    font-family: cursive;
 }

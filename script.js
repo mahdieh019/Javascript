@@ -41,3 +41,21 @@ function welcome( fname, lname){
 function submitButtonStyle(_this) {
     _this.style.backgroundColor = "red";
   }
+  function changestyle2(){
+       document.getElementById('mydiv').style.transition='all 3s';
+  }
+  function changestyle3(){
+     //   document.getElementById('mydiv').style.transform='rotate(720deg)';
+     //   document.getElementById('mydiv').style.transform='rotatex(90deg)';
+     //   document.getElementById('mydiv').style.borderRadius='500';
+     document.getElementById('mydiv').style.border= '10px dotted green ';
+     }
+  function changestyle4(){
+       var newname=prompt('please enter your name','mah nas');
+     //   console.log(newname);
+     // document.getElementById('Fullname').innerHTML='<h1>'+newname+'</h1>';
+     // document.getElementById('h1').innerHTML=newname;
+     if(newname !=''){
+          document.getElementById('h1').innerHTML=newname;
+     }
+  }
